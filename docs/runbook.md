@@ -72,6 +72,8 @@ Separate checkout check: `Test-Path -LiteralPath 'C:\GitHub\MicroCover'` returne
 
 ## Configuration inventory
 
+Studio sharing follow-up: human supplied two teammate screenshots at the correct app URL, including Code opened with no files. Recorded as a failed access verification, not a confirmed service root cause. Official-site search and `arc-studio --help` yielded no confirmed share/permission method. No settings were changed or message sent. Question prepared in `docs/arc-sharing-question.md`; Phase 0 remains blocked pending supported guidance and retest.
+
 Final Phase 0 audit: fresh command results, browser checks, Studio anonymous-access redirect and official sponsor requirements are recorded in `docs/evidence/phase0-audit.md`. `bun run check`, WSL `forge test` (33/33) and `bunx vite build` succeeded. After removing mainnet/ENS from wallet config, check/build and production-browser render/Connect-dialog smoke succeeded; Studio dry run showed config parity. No contract retest after the wallet-only edit was needed because contract/tests were unchanged. Agent found the Arkiv creation transaction in the explorer accessibility view and verified RPC receipt status `0x1`. Temporary servers stopped. Remaining manual task is an independent Studio-account access test, not a blanket code-review approval.
 
 Private push verification: human pushed main after creating documentation commit `3d01d41c209132d32b9b542fe087db5fb1c156c1`. `git status --short --branch` returned clean `main...origin/main`; `git ls-remote --heads origin main` returned that exact SHA. No tests repeated for this read-only Git check. Subsequent workflow update is documentation only: agent local commits are now authorized; push/publication/deployment remain separate human actions.

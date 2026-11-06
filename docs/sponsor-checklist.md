@@ -21,6 +21,8 @@ Phase 0 Studio update: human supplied `https://studio.arc.io/app/c47658be-4463-4
 
 Human Preview screenshot shows the undeployed illustrative app. Studio's Share menu offers hosting deployment via Netlify, Hugging Face or Vercel; it did not show a public read-only project link. No hosting account was connected or app published. The Studio project URL must not be described as judge-accessible until sharing is verified.
 
+Independent account test: teammate's screenshots at the exact project URL show `New Project` and an empty Code file list. Project access not demonstrated. Arc staff clarification is required; unsent question is prepared in `docs/arc-sharing-question.md`.
+
 ## Chainlink — CRE workflow
 
 Official: https://ethglobal.com/events/mumbai/prizes/chainlink

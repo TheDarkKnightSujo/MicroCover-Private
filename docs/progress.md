@@ -5,7 +5,7 @@ Local private checkout reconciled with the Studio export on 6 November 2026. The
 | Phase | Scope | Status | Human owner | Evidence / next action |
 |---|---|---|---|---|
 | Prerequisites | Reconcile instruction/plan files in actual private checkout | PASSED | Current user | Reconciled source/docs, human-reviewed first commits pushed privately; later findings recorded |
-| 0 | Studio, workspace and access | BLOCKED | Current user | Technical audit complete; independent signed-in Studio project access check required |
+| 0 | Studio, workspace and access | BLOCKED | Current user | Technical audit complete; teammate Code pane empty at project URL; Arc staff sharing guidance required |
 | 1 | Bond, escrow, admitted failure | NOT_STARTED | Assign | Complete Phase 0 first |
 | 2 | Success/release and core UI | NOT_STARTED | Assign | Complete Phase 1 first |
 | 3 | Evidence and deterministic verdict | NOT_STARTED | Assign | Complete Phase 2 first |
@@ -51,6 +51,7 @@ Human committed the corrected foundation and documentation under author Abhiraj 
 - User confirmed sole implementation on this laptop and supplied four GitHub accounts for publication. All implementation roles assigned to the current user; planned complete-phase publisher rotation and honest snapshot attribution recorded. No Git action was performed. Operator's Git author identity remains to be confirmed before the first human commit.
 - Final agent audit reran local checks (pass), all 33 contract tests (pass), production build (pass with warnings), Studio parity (zero differences) and browser render/dialog checks. Removed Studio's mainnet/ENS wallet config, synced it to Studio, and repeated check/build/browser smoke successfully. Arc USDC decimals independently returned 6; Arkiv creation receipt was obtained from explorer and verified. Details: `docs/evidence/phase0-audit.md`.
 - Checkpoint status: BLOCKED only on independent Studio project access. Anonymous browser redirected to sign-in. Human must have one teammate open the exact project URL with their own account and report access; if unavailable, obtain Arc staff's supported judge-access method. Existing human operational verification is recorded; no repeat generic code-review approval required. Phase 1 remains NOT_STARTED. Do not deposit into or deploy the locked-funds foundation contract.
+- Independent-account follow-up: teammate screenshots show `New Project`, no chat and an empty Code file list at the exact project URL. MicroCover access is not established. No confirmed sharing command found in official-site search or installed CLI help. Human next action: ask Arc staff the concrete question in `docs/arc-sharing-question.md` and provide their response. Technical setup checks need not be repeated while this external access issue is unresolved.
 
 ## Checkpoint entry — duplicate per phase
 
